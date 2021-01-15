@@ -3,10 +3,34 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link href="style.css" rel="stylesheet" />
-    <title>Document</title>
+
+    <title>Let's guess my number</title>
   </head>
+
   <body>
+    <header>
+      <h1>LET'S GUESS THE NUMBER!</h1>
+      <p class="between">Between 1 and 20</p>
+      <botton class="btn again">Play Again!</botton>
+      <div class="number">?</div>
+    </header>
+    <main>
+      <section class="left">
+        <input type="number" class="guess" />
+        <botton class="btn check">Let's Check!</botton>
+      </section>
+      <section class="right">
+        <p class="message">
+          <i class="fas fa-caret-square-right"></i> Start Guessing...
+        </p>
+        <p class="label-score">Score: <span class="score">20</span></p>
+        <p class="label-highscore">
+          Highscore: <span class="highscore">0</span>
+        </p>
+      </section>
+    </main>
     <script src="script.js"></script>
   </body>
 </html>
