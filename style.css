@@ -12,7 +12,7 @@ html {
 
 body {
   font-family: "Yusei Magic", sans-serif;
-  background-color: #e8ddc9;
+  background-color: #ffdca2;
 }
 
 /* LAYOUT*/
@@ -20,7 +20,7 @@ body {
 header {
   position: relative;
   height: 35vh;
-  background-color: #e9b57c;
+  background-color: #ffbd71;
   border-bottom: 7px solid;
 }
 
